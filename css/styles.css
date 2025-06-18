@@ -11,35 +11,31 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
+    background-color: rgb(213, 225, 236);
 }
 
 .container {
-    background: black;
-    opacity: 0.8;
-    border-radius:25px;
+    background: rgb(60, 200, 255);
+    border-radius:14px;
     padding:20px;
-    width:95vw;
-    max-width: 400px;
+    width:90vw;
+    max-width: 450px;
 }
 
 input {
     border:none;
     outline:none;
     padding:10px;
-    border-radius:25px;
+    border-radius:10px;
     font-size:20px;
-    background-color: #f9f9f92b;
-    color:#fff;
     width:calc(100% - 80px);
 }
 
 button {
     border:none;
     outline:none;
-    padding:10px;
-    border-radius:50px;
-    background-color: #f9f9f92b;
+    padding:14px;
+    border-radius:50%;
     cursor: pointer;
     float:right;
 }
@@ -50,20 +46,29 @@ button {
 
 .cidade {
     color:#fff;
-    font-size:24px;
+    font-size:32px;
     font-weight: 300;
 }
 
 .temp {
-    font-size:20px;
+    font-size:24px;
+    font-weight: bold;
     color:#fff;
     margin-top:20px;
 }
 
-.infos > div {
+.infos > div:first-of-type {
+    color:white;
+    margin-top:10px;
+    font-size:12px;
+    display: flex;
+    gap: 5px;
+}
+
+.infos > div:last-of-type {
     display: flex;
     align-items: center;
-    margin-top:20px;
+    margin-top:12px;
 }
 
 .texto-previsao {
