@@ -10,18 +10,23 @@
 <body>
 
     <div class="container">
-        <div class="area-input">
-            <input type="text" name="busca" id="f_busca" placeholder="Buscar cidade">
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
-        </div>
+        <input type="text" placeholder="Digite o nome da cidade">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+
         <div class="infos">
-            <h2>Tempo em Rio de Janeiro</h2>
-            <p>30 °C</p>
-            <img src="" alt="">
-            <p>Algumas Nuvens</p>
-            <p>Umidade 62%</p>
+            <h2 class="cidade">Tempo em Rio de Janeiro</h2>
+            
+            <p class="temp">21°C</p>
+            
+            <div>
+                <img class="img-previsao" src="" alt="icone-info-tempo"> 
+                <p class="texto-previsao">Nublado</p>
+            </div>
+            
+            <p class="umidade">Umidade: 76%</p>
         </div>
     </div>
+    
     
     <script src="js/script.js"></script>
 </body>
